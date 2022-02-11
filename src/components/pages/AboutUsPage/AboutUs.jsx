@@ -1,16 +1,15 @@
 import React from 'react'
+import { AboutUsMain } from '../../layouts/AboutUs/AboutUsMain'
 import { Footer } from '../../layouts/Footer/Footer'
 import { Header } from '../../layouts/Header/Header'
-import { Main } from '../../layouts/Main/Main'
 
 
-export const Body = () => {
+export const AboutUs = () => {
   return (
     <div>
         <Header/>
-        <Main/>
+        <AboutUsMain/>
         <Footer/>
     </div>
-    
   )
 }

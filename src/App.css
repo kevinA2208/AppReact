@@ -25,13 +25,34 @@ body{
     border-radius: 10px;
 }
 
+.aboutUsDiv{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 550px;
+    margin-right: 550px;
+    background-color: rgb(36, 36, 36);
+    flex-direction: column;
+    border-radius: 10px;
+}
+
 .footerDiv{
     display: flex;
     justify-content: center;
     padding-top: 25px;
+    position: absolute;
+    bottom:4%;
+    left: 43%;
 }
 
 #name{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#info{
     display: flex;
     justify-content: center;
     color: white;
@@ -44,6 +65,15 @@ body{
 
 #imagen1:hover{
     filter: contrast(200%)
+}
+
+#imagen2{  
+    width: 650px;
+    padding-left: 75px;
+}
+
+#imagen2:hover{
+    filter: grayscale(100%)
 }
 
 #buttons{
