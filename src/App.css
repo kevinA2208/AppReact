@@ -87,3 +87,44 @@ body{
     border-radius: 5px;
 }
 
+#contactForm{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(48, 48, 48);
+    width: 500px;
+    height: 600px;
+    align-items: center;
+}
+
+#contactDiv{
+    display: flex;
+    justify-content: center;
+}
+
+#nameContact{
+    color: white;
+}
+#emailContact{
+    color: white;
+}
+#msgContact{
+    color: white;
+}
+
+#msgForm{
+    height:260px;
+    width:300px;
+    text-align: center;
+}
+#nameForm{
+    height:20px;
+    width:300px;
+}
+#mailForm{
+    height:20px;
+    width:300px;
+    
+}
+#submitBtn{
+    margin-top: 30px;
+}
