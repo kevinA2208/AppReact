@@ -8,7 +8,8 @@ export const Header = () => {
       <NavLink to="/"> <Botones butMensaje="Home"/></NavLink>
       <NavLink to="/AboutUs"><Botones butMensaje="About us"/></NavLink>
       <NavLink to="/Contact"><Botones butMensaje="Contact"/></NavLink>
-      <NavLink to=""><Botones butMensaje="Counter"/></NavLink>
+      <NavLink to="/Counter"><Botones butMensaje="Counter"/></NavLink>
+
     </div>
     
   )

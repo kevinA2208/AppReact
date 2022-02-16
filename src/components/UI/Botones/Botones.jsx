@@ -1,12 +1,9 @@
 import React from 'react'
 
-export const Botones = ({butMensaje, link}) => {
+export const Botones = ({butMensaje, event}) => {
   return (
-  <div>
-    <a href={link}>
-      <button id='buttons'>{butMensaje}</button>
-    </a>
-
+  <div id="buttonsDiv">
+      <button onClick={event} id='buttons'>{butMensaje}</button>
   </div>
 
     
