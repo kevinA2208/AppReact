@@ -43,7 +43,7 @@ body{
     border-radius: 10px;
 }
 
-/*Diseño Footer*/
+/*Diseño Footer*/ 
 
 .footerDiv{
     display: flex;
@@ -196,4 +196,13 @@ body{
 
 .activo{
     filter: grayscale(1);
+}
+
+/*Diseño OnOff page */
+.enabled{
+    filter: grayscale(1);
+}
+
+.disabled{
+    filter: grayscale(0);
 }

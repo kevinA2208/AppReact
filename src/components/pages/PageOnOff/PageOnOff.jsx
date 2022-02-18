@@ -1,17 +1,14 @@
 import React from 'react'
-import { CounterImgMain } from '../../layouts/CounterImgMain/CounterImgMain'
 import { Footer } from '../../layouts/Footer/Footer'
 import { Header } from '../../layouts/Header/Header'
+import { MainOnOff } from '../../layouts/MainOnOff/MainOnOff'
 
 
-export const CounterImage = () => {
-
-  
-
+export const PageOnOff = () => {
   return (
     <div>
         <Header/>
-        <CounterImgMain/>
+        <MainOnOff/>
         <Footer/>
     </div>
   )
