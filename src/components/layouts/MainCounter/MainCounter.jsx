@@ -5,20 +5,19 @@ export const MainCounter = () => {
 
     const useCounter = () =>{
 
-    const [counter, setCounter] = useState(0)
-        
-        const aumentar = () =>setCounter(counter + 1)
-        const disminuir = () =>setCounter(counter - 1)
-        const reset = () =>setCounter(0)
+        const [counter, setCounter] = useState(0)
+            
+            const aumentar = () =>setCounter(counter + 1)
+            const disminuir = () =>setCounter(counter - 1)
+            const reset = () =>setCounter(0)
 
 
-        return {
-            counter,
-            aumentar,
-            disminuir,
-            reset
-        }
-    
+            return {
+                counter,
+                aumentar,
+                disminuir,
+                reset
+            }
 }
 
     const {counter, aumentar, disminuir, reset} = useCounter()

@@ -50,8 +50,8 @@ body{
     justify-content: center;
     padding-top: 25px;
     position: absolute;
-    bottom:4%;
-    left: 43%;
+    bottom:1%;
+    left: 42%;
 }
 
 /*Diseño nombre en la pagina home*/
@@ -72,21 +72,21 @@ body{
 
 /*Diseño imagenes*/
 
-#imagen1{
+#img1{
     width: 650px;
     padding-left: 75px;
 }
 
-#imagen1:hover{
+#img1:hover{
     filter: contrast(200%)
 }
 
-#imagen2{  
+#img2{  
     width: 650px;
     padding-left: 75px;
 }
 
-#imagen2:hover{
+#img2:hover{
     filter: grayscale(100%)
 }
 
@@ -95,8 +95,8 @@ body{
 #buttons{
     background-color: rgb(24, 24, 24);
     color: white;
-    width: 70px;
-    height: 30px;
+    width: 80px;
+    height: 35px;
     margin-left: 10px;
     margin-right: 10px;
     font-size: 13px;
@@ -165,4 +165,35 @@ body{
 
 #counterMain{
     padding-top: 60px;
+}
+
+/*Diseño pagina counter image*/
+
+#counterImageText{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-size:30px
+}
+
+#counterImageMain{
+    padding-top: 60px;
+}
+
+#counterImageButtons{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.desactivado{
+  
+}
+
+#img3{
+    width: 350px;
+}
+
+.activo{
+    filter: grayscale(1);
 }
