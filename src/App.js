@@ -4,7 +4,7 @@ import { AboutUsMain } from './components/layouts/AboutUs/AboutUsMain';
 import { Contact } from './components/pages/Contact/Contact';
 import { Counter } from './components/pages/CounterPage/Counter';
 import { CounterImage } from './components/pages/CounterImagePage/CounterImage';
-import { PageOnOff } from './components/pages/PageOnOff/PageOnOff';
+import { BotonOnPage } from './components/pages/BotonOnPage/BotonOnPage';
 
 import {
   BrowserRouter,
@@ -22,7 +22,7 @@ function App() {
         <Route path="/Contact" element={<Contact/>}/>
         <Route path="/Counter" element={<Counter/>}/>
         <Route path="/CounterImage" element={<CounterImage/>}/>
-        <Route path="/PageOnOff" element={<PageOnOff/>}/>
+        <Route path="/BotonOnPage" element={<BotonOnPage/>}/>
       </Routes>
     </BrowserRouter>
     
