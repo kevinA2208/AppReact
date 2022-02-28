@@ -1,16 +1,18 @@
 import React from 'react'
+import { Inputs } from '../../UI/Inputs/Inputs'
+
 
 export const ContactMain = () => {
   return (
     <div id="contactDiv">
         <form id="contactForm">
             <h3 id="nameContact">Nombre:</h3>
-            <input id="nameForm" type="text" placeholder="Ingrese su nombre"></input>
+            <Inputs tipo="text"  texto="Ingrese su nombre" id="nameForm"/>
             <h3 id="emailContact">Correo:</h3>
-            <input id="mailForm" type="mail" placeholder="Ingrese su correo"></input>
+            <Inputs tipo="mail"  texto="Ingrese su email" id="mailForm"/>
             <h3 id="msgContact">Mensaje:</h3>
             <textarea id="msgForm" placeholder="Ingrese el texto"></textarea>
-            <input id="submitBtn" type="submit"></input>
+            <Inputs tipo="submit" id="submitBtn"/>
         </form>
     </div>
   )
