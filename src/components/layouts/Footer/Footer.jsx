@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <div className='footerDiv'>
        <NavLink to="/BotonOnPage"><Botones butMensaje="Page Off On"/></NavLink>
-        <Botones butMensaje="e"/>
+        <NavLink to="/BotonLogin"><Botones butMensaje="Login"/></NavLink>
         <Botones butMensaje="i"/>
     </div>
   )
