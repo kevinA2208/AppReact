@@ -17,17 +17,17 @@ export const ContactMain = () => {
   return (
     <div id="contactDiv">
         <form id="contactForm" onSubmit={sendEmail}>
-            <h1 id='titleContact'>Contact us</h1>
-            <h3 id="nameContact">Nombre:</h3>
+            <h1 className='titleForms'>Contact us</h1>
+            <h2 className='titleForms'>Nombre:</h2>
             <Inputs name="user_name" tipo="text"  texto="Ingrese su nombre" id="nameForm"/>
 
-            <h3 id="emailContact">Correo:</h3>
+            <h2 className='titleForms'>Correo:</h2>
             <Inputs name="user_email" tipo="mail"  texto="Ingrese su email" id="mailForm"/>
 
-            <h3 id="msgContact">Mensaje:</h3>
+            <h2 className='titleForms'>Mensaje:</h2>
             <textarea name="user_message" id="msgForm" placeholder="Ingrese el texto"></textarea>
 
-            <input type="submit" className="submitBtn"/>
+            <input type="submit" className="inputsLogin"/>
         </form>
     </div>
   )

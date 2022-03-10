@@ -121,15 +121,11 @@ body{
     
 }
 
-#nameContact{
+.titleForms{
     color: white;
+    text-align: center;
 }
-#emailContact{
-    color: white;
-}
-#msgContact{
-    color: white;
-}
+
 
 #msgForm{
     border: solid 2px black;
@@ -141,30 +137,17 @@ body{
     border: solid 2px black;
     height:20px;
     width:300px;
+    text-align: center;
+    margin-top: 30px;
 }
 #mailForm{
+    margin-top: 30px;
     border: solid 2px black;
     height:20px;
     width:300px;
-    
+    text-align: center;
 }
 
-#titleContact{
-    color: white;
-}
-
-.submitBtn{
-    margin-top: 30px;
-    background-color: rgb(24, 24, 24);
-    color: white;
-    width: 100px;
-    height: 35px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 13px;
-    border-radius: 5px;
-    margin-bottom: 30px;
-}
 
 /*Diseño contenedor pagina counter*/
 #counterText{
@@ -314,23 +297,14 @@ body{
     color: white;
 }
 
-#loginName{
-    margin-top: 50px;
-    color: white;
-    text-align: center;
-}
 
-#loginPassw{
-    margin-top: 50px;
-    color: white;
-    text-align: center;
-}
 
 #loginNameInput{
     margin-top: 30px;
     border: solid 2px black;
     width: 200px;
     height: 30px;
+    text-align: center;
 }
 
 #loginPasswInput{
@@ -338,6 +312,7 @@ body{
     border: solid 2px black;
     width: 200px;
     height: 30px;
+    text-align: center;
 }
 
 #loginBtn{
@@ -362,6 +337,25 @@ body{
     margin-bottom: 30px;
 }
 
-#loginTitle{
-    color: white;
+/* Diseño del register main */
+
+#registerMain{
+    display: flex;
+    justify-content: center;
+}
+
+#passwordForm{
+    border: solid 2px black;
+    height:20px;
+    width:300px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#realNameInput{
+    margin-top: 30px;
+    border: solid 2px black;
+    height:20px;
+    width:300px;
+    text-align: center;
 }
