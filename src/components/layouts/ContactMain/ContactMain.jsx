@@ -27,7 +27,7 @@ export const ContactMain = () => {
             <h3 id="msgContact">Mensaje:</h3>
             <textarea name="user_message" id="msgForm" placeholder="Ingrese el texto"></textarea>
 
-            <Inputs tipo="submit" id="submitBtn"/>
+            <input type="submit" className="submitBtn"/>
         </form>
     </div>
   )

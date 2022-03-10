@@ -148,11 +148,16 @@ body{
     width:300px;
     
 }
-#submitBtn{
+
+#titleContact{
+    color: white;
+}
+
+.submitBtn{
     margin-top: 30px;
     background-color: rgb(24, 24, 24);
     color: white;
-    width: 80px;
+    width: 100px;
     height: 35px;
     margin-left: 10px;
     margin-right: 10px;
@@ -312,11 +317,13 @@ body{
 #loginName{
     margin-top: 50px;
     color: white;
+    text-align: center;
 }
 
 #loginPassw{
     margin-top: 50px;
     color: white;
+    text-align: center;
 }
 
 #loginNameInput{
@@ -335,4 +342,26 @@ body{
 
 #loginBtn{
     margin-top: 100px;
+}
+
+#mensajeError{
+    color: white;
+    font-size: 20px;
+}
+
+.inputsLogin{
+    margin-top: 30px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    width: 100px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#loginTitle{
+    color: white;
 }
